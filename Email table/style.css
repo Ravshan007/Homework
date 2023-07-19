@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: #5AB9B9;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* #customers tr:nth-child(even) {
+    color: rgb(0, 175, 0);
+} */
+
+#customers td,
+#customers th {
+    padding: 20px 50px;
+
+}
+
+/* 
+#customers tbody:last-child {
+    border-bottom: 5px solid rgb(0, 175, 0);
+} */
+table, th, td{
+    border: 2px solid #2B3643;
+}
+#customers tr:nth-child(odd) {
+    background-color: #2C3844;
+    color: white;
+}
+#customers tr:nth-child(even) {
+    background-color:#202832;
+    color: white;
+}
+
+#customers th {
+    text-align: left;
+    background-color: #5f5959;
+    background-color: #202832;
+    color: white;
+}
+td a {
+    background: #4A918F;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: aliceblue;
+}
